@@ -1,13 +1,22 @@
 import React from "react";
 import Header from "./Header";
+import Sidebar from "./Sidebar"
+import RecommendedVideos from "./RecommendedVideos"
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <h1>Atharva's YT Clone</h1>
-      </header>
+    <Header/>
+      
+      <div className="app_page">
+        <Sidebar />
+        <RecommendedVideos />
+        </div>
+
+    
+        
+      
     </div>
   );
 }
