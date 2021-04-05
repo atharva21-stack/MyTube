@@ -11,23 +11,25 @@ function header() {
         <div className="header">
             <div className="header_left">
             <MenuIcon/>
-            <img className="header_logo" src="https://en.wikipedia.org/wiki/File:Logo_of_YouTube_(2015-2017).svg">
-            alt=""
+            <img className="header_logo" src="https://upload.wikimedia.org/wikipedia/commons/b/b8/YouTube_Logo_2017.svg" alt="text">
+            
             </img>
             </div>
 
             <div className="header_input">
-            <input type="text"></input>
-            <SearchIcon/>
+            <input placeholder="Search" type="text"></input>
+            <SearchIcon className="header_inputButton" />
             </div>
             
             <div>
-            <VideoCallIcon/>      
-            <AppsIcon/>
-            <NotificationsIcon/>
+            <VideoCallIcon className="header_icon"/>      
+            <AppsIcon className="header_icon"/>
+            <NotificationsIcon className="header_icon"/>
             <Avatar
                     alt="Remy Sharp"
                     src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fgithub.com%2Fatharva21-stack&psig=AOvVaw26d-GDnttvPe8hrSRdZMcS&ust=1617548242708000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCLi83vWq4u8CFQAAAAAdAAAAABAD"
+            
+            />
             </div>
             
            
