@@ -16,7 +16,7 @@ function VideoCard({image , title , channel , views ,channelImage , timestamp}) 
 
                 </Avatar>
 
-            <div className="video_text"> 
+            <div className="videoCard_text"> 
                 <h4>{title}</h4>
                 <p>{channel}</p>
                 <p>
