@@ -28,7 +28,13 @@
 }
 .header_icon{
     margin-right: 10px;
-   
+   display: flex;
+   /* align-items: right; */
+   width: 50%;
+   align-items: flex-end;
+}
+.header_icon > Avatar {
+    align-items: flex-end;
 }
 
 .header_icons{
