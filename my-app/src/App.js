@@ -1,6 +1,7 @@
 import React from "react";
 import Header from "./Header";
 import Sidebar from "./Sidebar"
+import SearchPage from "./SearchPage"
 import RecommendedVideos from "./RecommendedVideos"
 import './App.css';
 import {BrowserRouter as Router , Switch, Route} from "react-router-dom";
@@ -12,6 +13,10 @@ function App() {
     <Header/>
       <Switch>
       <Route path="/search/:searchTerm">
+      <div className="app_page">
+        <Sidebar />
+        <SearchPage />
+        </div>
       <h1>Search Page</h1>
       </Route>
       <Route path="/">
